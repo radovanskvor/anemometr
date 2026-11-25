@@ -131,8 +131,8 @@
     <string name="wt87b_meter">Wintact WT87B · %1$d dBm</string>
     <string name="nothing_found">Nichts gefunden. Ist das Anemometer eingeschaltet und in Reichweite?</string>
 
-    <string name="settings_hood">Messtrichter</string>
-    <string name="settings_hood_help">Volumenstrom = mittlere Geschwindigkeit × freie Fläche des Messkopfs × Korrektur K. Die Maße sind für das Wintact WT87B voreingestellt (mit dem Messschieber gemessen); ändern Sie sie nur bei einem anderen Gerät.</string>
+    <string name="settings_hood">Volumenstromberechnung</string>
+    <string name="settings_hood_help">Volumenstrom = mittlere Geschwindigkeit × freie Fläche des Messkopfs × Korrektur K. Der Trichter leitet nur den gesamten Volumenstrom des Ventils durch den Kopf des Anemometers, seine Maße werden daher nicht eingegeben. Die Korrektur K gleicht Undichtigkeiten des Trichters und ungleichmäßige Strömung im Kopf aus. Die Maße sind für das Wintact WT87B voreingestellt (mit dem Messschieber gemessen); ändern Sie sie nur bei einem anderen Gerät.</string>
     <string name="hood_head_diameter">Kopf Ø [mm]</string>
     <string name="hood_hub_diameter">Nabe Ø [mm]</string>
     <string name="hood_factor">Korrektur K</string>
@@ -142,8 +142,8 @@
     <string name="hood_area">Freie Fläche %1$s cm² · 1 m/s = %2$s m³/h</string>
     <string name="hood_invalid">Eingegebene Werte prüfen</string>
     <string name="hood_reset_wt87b">WT87B-Werte</string>
-    <string name="hood_save">Trichter speichern</string>
-    <string name="hood_saved">Trichter gespeichert</string>
+    <string name="hood_save">Speichern</string>
+    <string name="hood_saved">Gespeichert</string>
     <string name="settings_evaluation">Bewertung</string>
     <string name="settings_tolerance">Volumenstrom-Toleranz</string>
     <string name="settings_capture">Mittelungsdauer</string>

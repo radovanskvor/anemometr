@@ -145,8 +145,8 @@
     <string name="nothing_found">Nothing found. Is the anemometer on and in range?</string>
 
     <!-- Settings -->
-    <string name="settings_hood">Measuring hood</string>
-    <string name="settings_hood_help">Air flow = average velocity × free area of the measuring head × correction K. The dimensions are preset for the Wintact WT87B (measured with a caliper); change them only for a different meter.</string>
+    <string name="settings_hood">Air flow calculation</string>
+    <string name="settings_hood_help">Air flow = average velocity × free area of the measuring head × correction K. The hood only routes the whole outlet flow through the anemometer head, so its dimensions are not entered. Correction K compensates for hood leakage and uneven flow across the head. The dimensions are preset for the Wintact WT87B (measured with a caliper); change them only for a different meter.</string>
     <string name="hood_head_diameter">Head Ø [mm]</string>
     <string name="hood_hub_diameter">Hub Ø [mm]</string>
     <string name="hood_factor">Correction K</string>
@@ -156,8 +156,8 @@
     <string name="hood_area">Free area %1$s cm² · 1 m/s = %2$s m³/h</string>
     <string name="hood_invalid">Check the values entered</string>
     <string name="hood_reset_wt87b">WT87B values</string>
-    <string name="hood_save">Save hood</string>
-    <string name="hood_saved">Hood saved</string>
+    <string name="hood_save">Save</string>
+    <string name="hood_saved">Saved</string>
     <string name="settings_evaluation">Evaluation</string>
     <string name="settings_tolerance">Air flow tolerance</string>
     <string name="settings_capture">Averaging time</string>

@@ -131,8 +131,8 @@
     <string name="wt87b_meter">Wintact WT87B · %1$d dBm</string>
     <string name="nothing_found">Nic nenalezeno. Je anemometr zapnutý a v dosahu?</string>
 
-    <string name="settings_hood">Měřicí trychtýř</string>
-    <string name="settings_hood_help">Průtok = průměrná rychlost × volná plocha měřicí hlavy × korekce K. Rozměry jsou přednastavené pro Wintact WT87B (změřené posuvkou), měňte je jen u jiného přístroje.</string>
+    <string name="settings_hood">Výpočet průtoku</string>
+    <string name="settings_hood_help">Průtok = průměrná rychlost × volná plocha měřicí hlavy × korekce K. Trychtýř jen převede celý průtok vyústky přes hlavu anemometru, jeho rozměry se proto nezadávají. Korekce K vyrovná netěsnost trychtýře a nerovnoměrné proudění v hlavě. Rozměry jsou přednastavené pro Wintact WT87B (změřené posuvkou), měňte je jen u jiného přístroje.</string>
     <string name="hood_head_diameter">Hlava Ø [mm]</string>
     <string name="hood_hub_diameter">Náboj Ø [mm]</string>
     <string name="hood_factor">Korekce K</string>
@@ -142,8 +142,8 @@
     <string name="hood_area">Volná plocha %1$s cm² · 1 m/s = %2$s m³/h</string>
     <string name="hood_invalid">Zkontrolujte zadané hodnoty</string>
     <string name="hood_reset_wt87b">Hodnoty WT87B</string>
-    <string name="hood_save">Uložit trychtýř</string>
-    <string name="hood_saved">Trychtýř uložen</string>
+    <string name="hood_save">Uložit</string>
+    <string name="hood_saved">Uloženo</string>
     <string name="settings_evaluation">Vyhodnocení</string>
     <string name="settings_tolerance">Tolerance průtoku</string>
     <string name="settings_capture">Doba průměrování</string>

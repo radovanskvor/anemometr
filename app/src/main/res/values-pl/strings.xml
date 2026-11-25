@@ -131,8 +131,8 @@
     <string name="wt87b_meter">Wintact WT87B · %1$d dBm</string>
     <string name="nothing_found">Nic nie znaleziono. Czy anemometr jest włączony i w zasięgu?</string>
 
-    <string name="settings_hood">Lej pomiarowy</string>
-    <string name="settings_hood_help">Strumień = średnia prędkość × wolna powierzchnia głowicy pomiarowej × korekta K. Wymiary są ustawione dla Wintact WT87B (zmierzone suwmiarką); zmieniaj je tylko dla innego przyrządu.</string>
+    <string name="settings_hood">Obliczanie strumienia</string>
+    <string name="settings_hood_help">Strumień = średnia prędkość × wolna powierzchnia głowicy pomiarowej × korekta K. Lej jedynie kieruje cały strumień z nawiewnika przez głowicę anemometru, dlatego jego wymiarów się nie wpisuje. Korekta K wyrównuje nieszczelność leja i nierównomierny przepływ w głowicy. Wymiary są ustawione dla Wintact WT87B (zmierzone suwmiarką); zmieniaj je tylko dla innego przyrządu.</string>
     <string name="hood_head_diameter">Głowica Ø [mm]</string>
     <string name="hood_hub_diameter">Piasta Ø [mm]</string>
     <string name="hood_factor">Korekta K</string>
@@ -142,8 +142,8 @@
     <string name="hood_area">Wolna powierzchnia %1$s cm² · 1 m/s = %2$s m³/h</string>
     <string name="hood_invalid">Sprawdź wprowadzone wartości</string>
     <string name="hood_reset_wt87b">Wartości WT87B</string>
-    <string name="hood_save">Zapisz lej</string>
-    <string name="hood_saved">Lej zapisany</string>
+    <string name="hood_save">Zapisz</string>
+    <string name="hood_saved">Zapisano</string>
     <string name="settings_evaluation">Ocena</string>
     <string name="settings_tolerance">Tolerancja strumienia</string>
     <string name="settings_capture">Czas uśredniania</string>
