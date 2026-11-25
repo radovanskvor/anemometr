@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Default language is English; Czech, Polish and German live in values-cs, values-pl, values-de. -->
+<resources>
+    <string name="app_name">Anemometer</string>
+
+    <!-- Navigation -->
+    <string name="tab_projects">Projects</string>
+    <string name="tab_live">Measure</string>
+    <string name="tab_records">Records</string>
+    <string name="tab_settings">Settings</string>
+    <string name="title_projects">Ventilation measurements</string>
+    <string name="action_back">Back</string>
+    <string name="action_more">More options</string>
+    <string name="action_share_protocol">Share report</string>
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_close">Close</string>
+    <string name="action_repeat">Repeat</string>
+    <string name="action_discard">Discard</string>
+    <string name="fab_project">Project</string>
+    <string name="fab_room">Room</string>
+    <string name="share_chooser">Share</string>
+    <string name="share_subject_protocol">Ventilation report – %1$s</string>
+    <string name="share_subject_record">Air speed record – %1$s</string>
+
+    <!-- Connection -->
+    <string name="conn_connected">Connected</string>
+    <string name="conn_connecting">Connecting…</string>
+    <string name="conn_connect">Connect</string>
+    <string name="permission_denied">Without the \"Nearby devices\" permission the app cannot connect to the anemometer.</string>
+    <string name="meter_not_connected">Anemometer not connected</string>
+    <string name="connect_meter">Connect anemometer</string>
+    <string name="waiting_for_data">Waiting for data</string>
+
+    <!-- Directions and status -->
+    <string name="direction_supply">Supply</string>
+    <string name="direction_exhaust">Exhaust</string>
+    <string name="direction_supply_short">S</string>
+    <string name="direction_exhaust_short">E</string>
+    <string name="status_not_measured">not measured</string>
+    <string name="status_ok">OK</string>
+    <string name="status_warning">out of tolerance</string>
+    <string name="status_bad">far out of tolerance</string>
+
+    <!-- Projects -->
+    <string name="empty_projects_title">No projects yet</string>
+    <string name="empty_projects_text">Create a project from the ventilation drawing, add rooms with their design air flow and number of outlets, then measure the outlets one by one with the hood.</string>
+    <string name="measured_x_of_y">measured %1$d of %2$d</string>
+    <string name="new_project">New project</string>
+    <string name="edit_project">Edit project</string>
+    <string name="delete_project">Delete project</string>
+    <string name="delete_project_title">Delete project?</string>
+    <string name="delete_project_text">\"%1$s\" including all rooms, outlets and measurements will be deleted permanently.</string>
+    <string name="project_name_hint">Name, e.g. Smith family house</string>
+    <string name="project_address_hint">Address</string>
+    <string name="project_unit_hint">Ventilation unit</string>
+    <string name="note_hint">Note</string>
+
+    <!-- Project detail -->
+    <string name="no_rooms_title">No rooms yet</string>
+    <string name="no_rooms_text">Use the \"Room\" button to add a room from the drawing with its design air flow and number of outlets.</string>
+    <string name="flow_outlets_summary">m³/h · %1$d/%2$d outlets</string>
+    <string name="balance">Supply − exhaust balance</string>
+    <string name="add_outlet">Outlet</string>
+    <string name="room_options">Room options</string>
+    <string name="design_share">target %1$s m³/h</string>
+    <string name="room_flow_line">%1$s %2$s / %3$s m³/h</string>
+
+    <!-- Room dialog -->
+    <string name="new_room">New room</string>
+    <string name="edit_room">Edit room</string>
+    <string name="room_number_hint">Number, e.g. 1.01</string>
+    <string name="room_name_hint">Name, e.g. Living room</string>
+    <string name="room_flow_hint">Air flow [m³/h]</string>
+    <string name="room_count_hint">Outlets</string>
+    <string name="room_flow_help">Enter the design air flow of the room and the number of outlets. Each outlet gets an equal share as its target; their sum is compared with the room flow.</string>
+    <string name="room_count_min">At least %1$d (measured outlets cannot be removed here)</string>
+    <string name="delete_room_title">Delete room?</string>
+    <string name="delete_room_text">\"%1$s\" including %2$d outlets and their measurements will be deleted permanently.</string>
+
+    <!-- Outlet -->
+    <string name="new_outlet">New outlet</string>
+    <string name="edit_outlet">Edit outlet</string>
+    <string name="delete_outlet">Delete outlet</string>
+    <string name="delete_outlet_title">Delete outlet?</string>
+    <string name="delete_outlet_text">\"%1$s\" including %2$d measurements will be deleted permanently.</string>
+    <string name="outlet_label_hint">Label, e.g. S1</string>
+    <string name="outlet_note_hint">Note, e.g. valve setting</string>
+
+    <!-- Outlet measuring -->
+    <string name="gauge_caption_flow">target %1$s m³/h · %2$s m/s</string>
+    <string name="room_progress">Room %1$s: %2$s / %3$s m³/h</string>
+    <string name="measure_average">Measure average over %1$d s</string>
+    <string name="hood_hint">Press the hood against the outlet all the way round and hold it still for the whole measurement.</string>
+    <string name="note_label">Note</string>
+    <string name="history_label">Measurement history</string>
+    <string name="delete_measurement">Delete measurement</string>
+    <string name="measuring_average">Measuring average</string>
+    <string name="measuring_remaining">%1$d s left · %2$d values</string>
+    <string name="cancel_measurement">Cancel measurement</string>
+    <string name="result">Result</string>
+    <string name="metric_flow">Air flow</string>
+    <string name="metric_target">Target</string>
+    <string name="metric_velocity">Velocity</string>
+    <string name="no_data_during_capture">No data arrived from the anemometer during the measurement.</string>
+    <string name="unstable_values">Fluctuating values (±%1$s %%), consider repeating</string>
+
+    <!-- Quick measuring -->
+    <string name="beaufort_caption">%1$d Bft · %2$s</string>
+    <string name="flow_through_hood">Hood flow</string>
+    <string name="temperature">Temperature</string>
+    <string name="humidity">Humidity</string>
+    <string name="wind_chill">Feels cold (wind chill)</string>
+    <string name="change_unit">Change unit</string>
+    <string name="speed_trend">Speed trend</string>
+    <string name="flow_trend">Air flow trend</string>
+    <string name="reset">Reset</string>
+    <string name="stat_min">Min</string>
+    <string name="stat_avg">Average</string>
+    <string name="stat_max">Max</string>
+    <string name="start_recording">Start recording</string>
+    <string name="stop_recording">Stop recording (%1$d values)</string>
+    <string name="save_recording">Save record</string>
+    <string name="recorded_values">Recorded %1$d values.</string>
+    <string name="record_name_hint">Name</string>
+
+    <!-- Records -->
+    <string name="no_records_title">No records</string>
+    <string name="no_records_text">Start a continuous air speed recording on the Measure screen. Saved records can be shared as CSV for Excel.</string>
+    <string name="record_default_title">Record</string>
+    <string name="record_summary">%1$d values · average %2$s · max %3$s %4$s</string>
+    <string name="delete_record_title">Delete record?</string>
+    <string name="delete_record_text">\"%1$s\" will be deleted permanently.</string>
+    <string name="share_csv">Share CSV</string>
+
+    <!-- Devices -->
+    <string name="choose_meter">Choose anemometer</string>
+    <string name="scan_again">Search again</string>
+    <string name="devices_hint">Switch the anemometer on and press its Bluetooth button.</string>
+    <string name="last_used">Last used</string>
+    <string name="likely_meter">Probably an anemometer · %1$d dBm</string>
+    <string name="wt87b_meter">Wintact WT87B · %1$d dBm</string>
+    <string name="nothing_found">Nothing found. Is the anemometer on and in range?</string>
+
+    <!-- Settings -->
+    <string name="settings_hood">Measuring hood</string>
+    <string name="settings_hood_help">Air flow = average velocity × free area of the measuring head × correction K. The dimensions are preset for the Wintact WT87B (measured with a caliper); change them only for a different meter.</string>
+    <string name="hood_head_diameter">Head Ø [mm]</string>
+    <string name="hood_hub_diameter">Hub Ø [mm]</string>
+    <string name="hood_factor">Correction K</string>
+    <string name="hood_diagram_head">Head Ø</string>
+    <string name="hood_diagram_hub">Hub Ø</string>
+    <string name="hood_diagram_caption">Head = inner diameter of the ring the vanes turn in. Hub = the solid centre the vanes are attached to.</string>
+    <string name="hood_area">Free area %1$s cm² · 1 m/s = %2$s m³/h</string>
+    <string name="hood_invalid">Check the values entered</string>
+    <string name="hood_reset_wt87b">WT87B values</string>
+    <string name="hood_save">Save hood</string>
+    <string name="hood_saved">Hood saved</string>
+    <string name="settings_evaluation">Evaluation</string>
+    <string name="settings_tolerance">Air flow tolerance</string>
+    <string name="settings_capture">Averaging time</string>
+    <string name="settings_units">Units</string>
+    <string name="settings_device">Device</string>
+    <string name="device_connected">Connected: %1$s</string>
+    <string name="device_connecting">Connecting: %1$s</string>
+    <string name="device_disconnected">Not connected</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="settings_language">Language</string>
+    <string name="language_system">System</string>
+
+    <!-- CSV export -->
+    <string name="csv_title">Ventilation air flow report</string>
+    <string name="csv_address">Address</string>
+    <string name="csv_unit">Unit</string>
+    <string name="csv_tolerance">Tolerance</string>
+    <string name="csv_header" formatted="false">Room;Outlet;Direction;Target [m³/h];Measured [m³/h];Deviation [%];Status;Velocity [m/s];Measured at;Note</string>
+    <string name="csv_room_total">Room total</string>
+    <string name="csv_total">Total</string>
+    <string name="csv_record_header" formatted="false">Time;Air speed [m/s];Temperature [°C];Humidity [%]</string>
+
+    <string name="chart_hint">Touch or drag along the chart to read the values.</string>
+    <string name="record_detail">Record</string>
+
+    <string-array name="beaufort">
+        <item>Calm</item>
+        <item>Light air</item>
+        <item>Light breeze</item>
+        <item>Gentle breeze</item>
+        <item>Moderate breeze</item>
+        <item>Fresh breeze</item>
+        <item>Strong breeze</item>
+        <item>Near gale</item>
+        <item>Gale</item>
+        <item>Strong gale</item>
+        <item>Storm</item>
+        <item>Violent storm</item>
+        <item>Hurricane</item>
+    </string-array>
+</resources>

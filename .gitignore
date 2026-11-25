@@ -1,0 +1,14 @@
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+.kotlin/
+captures/
+.env
+*.apk
+*.jks
+*.keystore
+# Personal notes for Claude, not part of the published project
+CLAUDE.md
+.claude/

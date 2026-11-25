@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Anemometr</string>
+
+    <string name="tab_projects">Projekty</string>
+    <string name="tab_live">Pomiar</string>
+    <string name="tab_records">Zapisy</string>
+    <string name="tab_settings">Ustawienia</string>
+    <string name="title_projects">Pomiary wentylacji</string>
+    <string name="action_back">Wstecz</string>
+    <string name="action_more">Więcej opcji</string>
+    <string name="action_share_protocol">Udostępnij protokół</string>
+    <string name="action_save">Zapisz</string>
+    <string name="action_cancel">Anuluj</string>
+    <string name="action_delete">Usuń</string>
+    <string name="action_edit">Edytuj</string>
+    <string name="action_close">Zamknij</string>
+    <string name="action_repeat">Powtórz</string>
+    <string name="action_discard">Odrzuć</string>
+    <string name="fab_project">Projekt</string>
+    <string name="fab_room">Pomieszczenie</string>
+    <string name="share_chooser">Udostępnij</string>
+    <string name="share_subject_protocol">Protokół wentylacji – %1$s</string>
+    <string name="share_subject_record">Zapis prędkości – %1$s</string>
+
+    <string name="conn_connected">Połączono</string>
+    <string name="conn_connecting">Łączenie…</string>
+    <string name="conn_connect">Połącz</string>
+    <string name="permission_denied">Bez uprawnienia „Urządzenia w pobliżu” aplikacja nie połączy się z anemometrem.</string>
+    <string name="meter_not_connected">Anemometr nie jest połączony</string>
+    <string name="connect_meter">Połącz anemometr</string>
+    <string name="waiting_for_data">Czekam na dane</string>
+
+    <string name="direction_supply">Nawiew</string>
+    <string name="direction_exhaust">Wywiew</string>
+    <string name="direction_supply_short">N</string>
+    <string name="direction_exhaust_short">W</string>
+    <string name="status_not_measured">nie zmierzono</string>
+    <string name="status_ok">OK</string>
+    <string name="status_warning">poza tolerancją</string>
+    <string name="status_bad">znacznie poza tolerancją</string>
+
+    <string name="empty_projects_title">Brak projektów</string>
+    <string name="empty_projects_text">Utwórz projekt na podstawie rysunku wentylacji, dodaj pomieszczenia z projektowym strumieniem powietrza i liczbą anemostatów, a następnie zmierz je kolejno lejem pomiarowym.</string>
+    <string name="measured_x_of_y">zmierzono %1$d z %2$d</string>
+    <string name="new_project">Nowy projekt</string>
+    <string name="edit_project">Edytuj projekt</string>
+    <string name="delete_project">Usuń projekt</string>
+    <string name="delete_project_title">Usunąć projekt?</string>
+    <string name="delete_project_text">„%1$s” wraz ze wszystkimi pomieszczeniami, anemostatami i pomiarami zostanie trwale usunięty.</string>
+    <string name="project_name_hint">Nazwa, np. Dom Kowalskich</string>
+    <string name="project_address_hint">Adres</string>
+    <string name="project_unit_hint">Centrala wentylacyjna</string>
+    <string name="note_hint">Notatka</string>
+
+    <string name="no_rooms_title">Brak pomieszczeń</string>
+    <string name="no_rooms_text">Przyciskiem „Pomieszczenie” dodaj pomieszczenie z rysunku wraz z projektowym strumieniem powietrza i liczbą anemostatów.</string>
+    <string name="flow_outlets_summary">m³/h · %1$d/%2$d anemostatów</string>
+    <string name="balance">Bilans nawiew − wywiew</string>
+    <string name="add_outlet">Anemostat</string>
+    <string name="room_options">Opcje pomieszczenia</string>
+    <string name="design_share">cel %1$s m³/h</string>
+    <string name="room_flow_line">%1$s %2$s / %3$s m³/h</string>
+
+    <string name="new_room">Nowe pomieszczenie</string>
+    <string name="edit_room">Edytuj pomieszczenie</string>
+    <string name="room_number_hint">Numer, np. 1.01</string>
+    <string name="room_name_hint">Nazwa, np. Salon</string>
+    <string name="room_flow_hint">Strumień [m³/h]</string>
+    <string name="room_count_hint">Anemostaty</string>
+    <string name="room_flow_help">Wpisz projektowy strumień powietrza pomieszczenia i liczbę anemostatów. Każdy anemostat otrzyma równy udział jako cel, a ich suma zostanie porównana ze strumieniem pomieszczenia.</string>
+    <string name="room_count_min">Co najmniej %1$d (zmierzonych anemostatów nie można tu usunąć)</string>
+    <string name="delete_room_title">Usunąć pomieszczenie?</string>
+    <string name="delete_room_text">„%1$s” wraz z %2$d anemostatami i ich pomiarami zostanie trwale usunięte.</string>
+
+    <string name="new_outlet">Nowy anemostat</string>
+    <string name="edit_outlet">Edytuj anemostat</string>
+    <string name="delete_outlet">Usuń anemostat</string>
+    <string name="delete_outlet_title">Usunąć anemostat?</string>
+    <string name="delete_outlet_text">„%1$s” wraz z %2$d pomiarami zostanie trwale usunięty.</string>
+    <string name="outlet_label_hint">Oznaczenie, np. N1</string>
+    <string name="outlet_note_hint">Notatka, np. ustawienie zaworu</string>
+    <string name="gauge_caption_flow">cel %1$s m³/h · %2$s m/s</string>
+    <string name="room_progress">Pomieszczenie %1$s: %2$s / %3$s m³/h</string>
+    <string name="measure_average">Zmierz średnią z %1$d s</string>
+    <string name="hood_hint">Przyłóż lej do anemostatu całym obwodem i trzymaj go nieruchomo przez cały pomiar.</string>
+    <string name="note_label">Notatka</string>
+    <string name="history_label">Historia pomiarów</string>
+    <string name="delete_measurement">Usuń pomiar</string>
+    <string name="measuring_average">Mierzę średnią</string>
+    <string name="measuring_remaining">zostało %1$d s · %2$d wartości</string>
+    <string name="cancel_measurement">Anuluj pomiar</string>
+    <string name="result">Wynik</string>
+    <string name="metric_flow">Strumień</string>
+    <string name="metric_target">Cel</string>
+    <string name="metric_velocity">Prędkość</string>
+    <string name="no_data_during_capture">Podczas pomiaru nie dotarły żadne dane z anemometru.</string>
+    <string name="unstable_values">Wahające się wartości (±%1$s %%), rozważ powtórzenie</string>
+
+    <string name="beaufort_caption">%1$d Bft · %2$s</string>
+    <string name="flow_through_hood">Strumień przez lej</string>
+    <string name="temperature">Temperatura</string>
+    <string name="humidity">Wilgotność</string>
+    <string name="wind_chill">Odczuwalnie zimno (wind chill)</string>
+    <string name="change_unit">Zmień jednostkę</string>
+    <string name="speed_trend">Przebieg prędkości</string>
+    <string name="flow_trend">Przebieg strumienia</string>
+    <string name="reset">Wyzeruj</string>
+    <string name="stat_min">Min</string>
+    <string name="stat_avg">Średnia</string>
+    <string name="stat_max">Maks</string>
+    <string name="start_recording">Rozpocznij zapis</string>
+    <string name="stop_recording">Zakończ zapis (%1$d wartości)</string>
+    <string name="save_recording">Zapisz</string>
+    <string name="recorded_values">Zapisano %1$d wartości.</string>
+    <string name="record_name_hint">Nazwa</string>
+
+    <string name="no_records_title">Brak zapisów</string>
+    <string name="no_records_text">Na ekranie Pomiar uruchom ciągły zapis prędkości. Zapisane dane można udostępnić jako CSV dla Excela.</string>
+    <string name="record_default_title">Zapis</string>
+    <string name="record_summary">%1$d wartości · średnia %2$s · maks %3$s %4$s</string>
+    <string name="delete_record_title">Usunąć zapis?</string>
+    <string name="delete_record_text">„%1$s” zostanie trwale usunięty.</string>
+    <string name="share_csv">Udostępnij CSV</string>
+
+    <string name="choose_meter">Wybierz anemometr</string>
+    <string name="scan_again">Szukaj ponownie</string>
+    <string name="devices_hint">Włącz anemometr i naciśnij na nim przycisk Bluetooth.</string>
+    <string name="last_used">Ostatnio używany</string>
+    <string name="likely_meter">Prawdopodobnie anemometr · %1$d dBm</string>
+    <string name="wt87b_meter">Wintact WT87B · %1$d dBm</string>
+    <string name="nothing_found">Nic nie znaleziono. Czy anemometr jest włączony i w zasięgu?</string>
+
+    <string name="settings_hood">Lej pomiarowy</string>
+    <string name="settings_hood_help">Strumień = średnia prędkość × wolna powierzchnia głowicy pomiarowej × korekta K. Wymiary są ustawione dla Wintact WT87B (zmierzone suwmiarką); zmieniaj je tylko dla innego przyrządu.</string>
+    <string name="hood_head_diameter">Głowica Ø [mm]</string>
+    <string name="hood_hub_diameter">Piasta Ø [mm]</string>
+    <string name="hood_factor">Korekta K</string>
+    <string name="hood_diagram_head">Głowica Ø</string>
+    <string name="hood_diagram_hub">Piasta Ø</string>
+    <string name="hood_diagram_caption">Głowica = wewnętrzna średnica pierścienia, w którym obracają się łopatki. Piasta = pełny środek, do którego przymocowane są łopatki.</string>
+    <string name="hood_area">Wolna powierzchnia %1$s cm² · 1 m/s = %2$s m³/h</string>
+    <string name="hood_invalid">Sprawdź wprowadzone wartości</string>
+    <string name="hood_reset_wt87b">Wartości WT87B</string>
+    <string name="hood_save">Zapisz lej</string>
+    <string name="hood_saved">Lej zapisany</string>
+    <string name="settings_evaluation">Ocena</string>
+    <string name="settings_tolerance">Tolerancja strumienia</string>
+    <string name="settings_capture">Czas uśredniania</string>
+    <string name="settings_units">Jednostki</string>
+    <string name="settings_device">Urządzenie</string>
+    <string name="device_connected">Połączono: %1$s</string>
+    <string name="device_connecting">Łączenie: %1$s</string>
+    <string name="device_disconnected">Niepołączono</string>
+    <string name="disconnect">Rozłącz</string>
+    <string name="settings_language">Język</string>
+    <string name="language_system">Systemowy</string>
+
+    <string name="csv_title">Protokół pomiaru strumieni wentylacji</string>
+    <string name="csv_address">Adres</string>
+    <string name="csv_unit">Centrala</string>
+    <string name="csv_tolerance">Tolerancja</string>
+    <string name="csv_header" formatted="false">Pomieszczenie;Anemostat;Kierunek;Cel [m³/h];Zmierzono [m³/h];Odchyłka [%];Stan;Prędkość [m/s];Czas pomiaru;Notatka</string>
+    <string name="csv_room_total">Suma pomieszczenia</string>
+    <string name="csv_total">Razem</string>
+    <string name="csv_record_header" formatted="false">Czas;Prędkość [m/s];Temperatura [°C];Wilgotność [%]</string>
+
+    <string name="chart_hint">Dotknij wykresu lub przesuń po nim palcem, aby odczytać wartości.</string>
+    <string name="record_detail">Zapis</string>
+
+    <string-array name="beaufort">
+        <item>Cisza</item>
+        <item>Powiew</item>
+        <item>Słaby wiatr</item>
+        <item>Łagodny wiatr</item>
+        <item>Umiarkowany wiatr</item>
+        <item>Dość silny wiatr</item>
+        <item>Silny wiatr</item>
+        <item>Bardzo silny wiatr</item>
+        <item>Sztorm</item>
+        <item>Silny sztorm</item>
+        <item>Bardzo silny sztorm</item>
+        <item>Gwałtowny sztorm</item>
+        <item>Huragan</item>
+    </string-array>
+</resources>

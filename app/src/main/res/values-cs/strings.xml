@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Anemometr</string>
+
+    <string name="tab_projects">Projekty</string>
+    <string name="tab_live">Měření</string>
+    <string name="tab_records">Záznamy</string>
+    <string name="tab_settings">Nastavení</string>
+    <string name="title_projects">Měření VZT</string>
+    <string name="action_back">Zpět</string>
+    <string name="action_more">Další možnosti</string>
+    <string name="action_share_protocol">Sdílet protokol</string>
+    <string name="action_save">Uložit</string>
+    <string name="action_cancel">Zrušit</string>
+    <string name="action_delete">Smazat</string>
+    <string name="action_edit">Upravit</string>
+    <string name="action_close">Zavřít</string>
+    <string name="action_repeat">Opakovat</string>
+    <string name="action_discard">Zahodit</string>
+    <string name="fab_project">Projekt</string>
+    <string name="fab_room">Místnost</string>
+    <string name="share_chooser">Sdílet</string>
+    <string name="share_subject_protocol">Protokol VZT – %1$s</string>
+    <string name="share_subject_record">Záznam rychlosti – %1$s</string>
+
+    <string name="conn_connected">Připojeno</string>
+    <string name="conn_connecting">Připojuji…</string>
+    <string name="conn_connect">Připojit</string>
+    <string name="permission_denied">Bez oprávnění „Zařízení v okolí“ se aplikace k anemometru nepřipojí.</string>
+    <string name="meter_not_connected">Anemometr není připojený</string>
+    <string name="connect_meter">Připojit anemometr</string>
+    <string name="waiting_for_data">Čekám na data</string>
+
+    <string name="direction_supply">Přívod</string>
+    <string name="direction_exhaust">Odtah</string>
+    <string name="direction_supply_short">P</string>
+    <string name="direction_exhaust_short">O</string>
+    <string name="status_not_measured">neměřeno</string>
+    <string name="status_ok">OK</string>
+    <string name="status_warning">mimo toleranci</string>
+    <string name="status_bad">výrazně mimo toleranci</string>
+
+    <string name="empty_projects_title">Zatím žádný projekt</string>
+    <string name="empty_projects_text">Založte projekt podle výkresu VZT, přidejte místnosti s návrhovým průtokem a počtem vyústek a pak vyústky jednu po druhé změřte trychtýřem.</string>
+    <string name="measured_x_of_y">změřeno %1$d z %2$d</string>
+    <string name="new_project">Nový projekt</string>
+    <string name="edit_project">Upravit projekt</string>
+    <string name="delete_project">Smazat projekt</string>
+    <string name="delete_project_title">Smazat projekt?</string>
+    <string name="delete_project_text">„%1$s“ včetně všech místností, vyústek a měření bude trvale odstraněn.</string>
+    <string name="project_name_hint">Název, např. RD Novákovi</string>
+    <string name="project_address_hint">Adresa</string>
+    <string name="project_unit_hint">Větrací jednotka</string>
+    <string name="note_hint">Poznámka</string>
+
+    <string name="no_rooms_title">Zatím žádné místnosti</string>
+    <string name="no_rooms_text">Tlačítkem „Místnost“ přidejte místnost z výkresu s návrhovým průtokem a počtem vyústek.</string>
+    <string name="flow_outlets_summary">m³/h · %1$d/%2$d vyústek</string>
+    <string name="balance">Bilance přívod − odtah</string>
+    <string name="add_outlet">Vyústka</string>
+    <string name="room_options">Možnosti místnosti</string>
+    <string name="design_share">cíl %1$s m³/h</string>
+    <string name="room_flow_line">%1$s %2$s / %3$s m³/h</string>
+
+    <string name="new_room">Nová místnost</string>
+    <string name="edit_room">Upravit místnost</string>
+    <string name="room_number_hint">Číslo, např. 1.01</string>
+    <string name="room_name_hint">Název, např. Obývací pokoj</string>
+    <string name="room_flow_hint">Průtok [m³/h]</string>
+    <string name="room_count_hint">Vyústek</string>
+    <string name="room_flow_help">Zadejte návrhový průtok místnosti a počet vyústek. Každá vyústka dostane jako cíl stejný podíl, jejich součet se porovná s průtokem místnosti.</string>
+    <string name="room_count_min">Nejméně %1$d (změřené vyústky tady odebrat nejde)</string>
+    <string name="delete_room_title">Smazat místnost?</string>
+    <string name="delete_room_text">„%1$s“ včetně %2$d vyústek a jejich měření bude trvale odstraněna.</string>
+
+    <string name="new_outlet">Nová vyústka</string>
+    <string name="edit_outlet">Upravit vyústku</string>
+    <string name="delete_outlet">Smazat vyústku</string>
+    <string name="delete_outlet_title">Smazat vyústku?</string>
+    <string name="delete_outlet_text">„%1$s“ včetně %2$d měření bude trvale odstraněna.</string>
+    <string name="outlet_label_hint">Označení, např. P1</string>
+    <string name="outlet_note_hint">Poznámka, např. nastavení ventilu</string>
+    <string name="gauge_caption_flow">cíl %1$s m³/h · %2$s m/s</string>
+    <string name="room_progress">Místnost %1$s: %2$s / %3$s m³/h</string>
+    <string name="measure_average">Změřit průměr za %1$d s</string>
+    <string name="hood_hint">Přiložte trychtýř celým obvodem k vyústce a držte ho v klidu po celou dobu měření.</string>
+    <string name="note_label">Poznámka</string>
+    <string name="history_label">Historie měření</string>
+    <string name="delete_measurement">Smazat měření</string>
+    <string name="measuring_average">Měřím průměr</string>
+    <string name="measuring_remaining">zbývá %1$d s · %2$d hodnot</string>
+    <string name="cancel_measurement">Zrušit měření</string>
+    <string name="result">Výsledek</string>
+    <string name="metric_flow">Průtok</string>
+    <string name="metric_target">Cíl</string>
+    <string name="metric_velocity">Rychlost</string>
+    <string name="no_data_during_capture">Během měření nepřišla žádná data z anemometru.</string>
+    <string name="unstable_values">Kolísavé hodnoty (±%1$s %%), zvažte opakování</string>
+
+    <string name="beaufort_caption">%1$d Bft · %2$s</string>
+    <string name="flow_through_hood">Průtok trychtýřem</string>
+    <string name="temperature">Teplota</string>
+    <string name="humidity">Vlhkost</string>
+    <string name="wind_chill">Pocitově chladno (wind chill)</string>
+    <string name="change_unit">Změnit jednotku</string>
+    <string name="speed_trend">Průběh rychlosti</string>
+    <string name="flow_trend">Průběh průtoku</string>
+    <string name="reset">Vynulovat</string>
+    <string name="stat_min">Min</string>
+    <string name="stat_avg">Průměr</string>
+    <string name="stat_max">Max</string>
+    <string name="start_recording">Začít záznam</string>
+    <string name="stop_recording">Ukončit záznam (%1$d hodnot)</string>
+    <string name="save_recording">Uložit záznam</string>
+    <string name="recorded_values">Zaznamenáno %1$d hodnot.</string>
+    <string name="record_name_hint">Název</string>
+
+    <string name="no_records_title">Žádné záznamy</string>
+    <string name="no_records_text">Na obrazovce Měření spusťte průběžný záznam rychlosti. Uložené záznamy jde sdílet jako CSV pro Excel.</string>
+    <string name="record_default_title">Záznam</string>
+    <string name="record_summary">%1$d hodnot · průměr %2$s · max %3$s %4$s</string>
+    <string name="delete_record_title">Smazat záznam?</string>
+    <string name="delete_record_text">„%1$s“ bude trvale odstraněn.</string>
+    <string name="share_csv">Sdílet CSV</string>
+
+    <string name="choose_meter">Vyberte anemometr</string>
+    <string name="scan_again">Hledat znovu</string>
+    <string name="devices_hint">Zapněte anemometr a stiskněte na něm tlačítko Bluetooth.</string>
+    <string name="last_used">Naposledy použitý</string>
+    <string name="likely_meter">Pravděpodobně anemometr · %1$d dBm</string>
+    <string name="wt87b_meter">Wintact WT87B · %1$d dBm</string>
+    <string name="nothing_found">Nic nenalezeno. Je anemometr zapnutý a v dosahu?</string>
+
+    <string name="settings_hood">Měřicí trychtýř</string>
+    <string name="settings_hood_help">Průtok = průměrná rychlost × volná plocha měřicí hlavy × korekce K. Rozměry jsou přednastavené pro Wintact WT87B (změřené posuvkou), měňte je jen u jiného přístroje.</string>
+    <string name="hood_head_diameter">Hlava Ø [mm]</string>
+    <string name="hood_hub_diameter">Náboj Ø [mm]</string>
+    <string name="hood_factor">Korekce K</string>
+    <string name="hood_diagram_head">Hlava Ø</string>
+    <string name="hood_diagram_hub">Náboj Ø</string>
+    <string name="hood_diagram_caption">Hlava = vnitřní průměr kroužku, ve kterém se točí lopatky. Náboj = plný střed, na kterém jsou lopatky upevněné.</string>
+    <string name="hood_area">Volná plocha %1$s cm² · 1 m/s = %2$s m³/h</string>
+    <string name="hood_invalid">Zkontrolujte zadané hodnoty</string>
+    <string name="hood_reset_wt87b">Hodnoty WT87B</string>
+    <string name="hood_save">Uložit trychtýř</string>
+    <string name="hood_saved">Trychtýř uložen</string>
+    <string name="settings_evaluation">Vyhodnocení</string>
+    <string name="settings_tolerance">Tolerance průtoku</string>
+    <string name="settings_capture">Doba průměrování</string>
+    <string name="settings_units">Jednotky</string>
+    <string name="settings_device">Přístroj</string>
+    <string name="device_connected">Připojeno: %1$s</string>
+    <string name="device_connecting">Připojuji: %1$s</string>
+    <string name="device_disconnected">Nepřipojeno</string>
+    <string name="disconnect">Odpojit</string>
+    <string name="settings_language">Jazyk</string>
+    <string name="language_system">Systém</string>
+
+    <string name="csv_title">Protokol měření průtoků VZT</string>
+    <string name="csv_address">Adresa</string>
+    <string name="csv_unit">Jednotka</string>
+    <string name="csv_tolerance">Tolerance</string>
+    <string name="csv_header" formatted="false">Místnost;Vyústka;Směr;Cíl [m³/h];Naměřeno [m³/h];Odchylka [%];Stav;Rychlost [m/s];Čas měření;Poznámka</string>
+    <string name="csv_room_total">Součet místnosti</string>
+    <string name="csv_total">Celkem</string>
+    <string name="csv_record_header" formatted="false">Čas;Rychlost [m/s];Teplota [°C];Vlhkost [%]</string>
+
+    <string name="chart_hint">Dotkněte se grafu nebo po něm táhněte prstem a uvidíte hodnoty.</string>
+    <string name="record_detail">Záznam</string>
+
+    <string-array name="beaufort">
+        <item>Bezvětří</item>
+        <item>Vánek</item>
+        <item>Větřík</item>
+        <item>Slabý vítr</item>
+        <item>Mírný vítr</item>
+        <item>Čerstvý vítr</item>
+        <item>Silný vítr</item>
+        <item>Mírný vichr</item>
+        <item>Čerstvý vichr</item>
+        <item>Silný vichr</item>
+        <item>Plný vichr</item>
+        <item>Vichřice</item>
+        <item>Orkán</item>
+    </string-array>
+</resources>

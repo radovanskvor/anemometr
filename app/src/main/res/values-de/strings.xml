@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Anemometer</string>
+
+    <string name="tab_projects">Projekte</string>
+    <string name="tab_live">Messen</string>
+    <string name="tab_records">Aufzeichnungen</string>
+    <string name="tab_settings">Einstellungen</string>
+    <string name="title_projects">Lüftungsmessungen</string>
+    <string name="action_back">Zurück</string>
+    <string name="action_more">Weitere Optionen</string>
+    <string name="action_share_protocol">Protokoll teilen</string>
+    <string name="action_save">Speichern</string>
+    <string name="action_cancel">Abbrechen</string>
+    <string name="action_delete">Löschen</string>
+    <string name="action_edit">Bearbeiten</string>
+    <string name="action_close">Schließen</string>
+    <string name="action_repeat">Wiederholen</string>
+    <string name="action_discard">Verwerfen</string>
+    <string name="fab_project">Projekt</string>
+    <string name="fab_room">Raum</string>
+    <string name="share_chooser">Teilen</string>
+    <string name="share_subject_protocol">Lüftungsprotokoll – %1$s</string>
+    <string name="share_subject_record">Geschwindigkeitsaufzeichnung – %1$s</string>
+
+    <string name="conn_connected">Verbunden</string>
+    <string name="conn_connecting">Verbinde…</string>
+    <string name="conn_connect">Verbinden</string>
+    <string name="permission_denied">Ohne die Berechtigung „Geräte in der Nähe“ kann sich die App nicht mit dem Anemometer verbinden.</string>
+    <string name="meter_not_connected">Anemometer nicht verbunden</string>
+    <string name="connect_meter">Anemometer verbinden</string>
+    <string name="waiting_for_data">Warte auf Daten</string>
+
+    <string name="direction_supply">Zuluft</string>
+    <string name="direction_exhaust">Abluft</string>
+    <string name="direction_supply_short">Z</string>
+    <string name="direction_exhaust_short">A</string>
+    <string name="status_not_measured">nicht gemessen</string>
+    <string name="status_ok">OK</string>
+    <string name="status_warning">außerhalb der Toleranz</string>
+    <string name="status_bad">weit außerhalb der Toleranz</string>
+
+    <string name="empty_projects_title">Noch keine Projekte</string>
+    <string name="empty_projects_text">Legen Sie ein Projekt nach der Lüftungszeichnung an, fügen Sie Räume mit Auslegungsvolumenstrom und Anzahl der Ventile hinzu und messen Sie die Ventile dann nacheinander mit dem Messtrichter.</string>
+    <string name="measured_x_of_y">%1$d von %2$d gemessen</string>
+    <string name="new_project">Neues Projekt</string>
+    <string name="edit_project">Projekt bearbeiten</string>
+    <string name="delete_project">Projekt löschen</string>
+    <string name="delete_project_title">Projekt löschen?</string>
+    <string name="delete_project_text">„%1$s“ wird mit allen Räumen, Ventilen und Messungen dauerhaft gelöscht.</string>
+    <string name="project_name_hint">Name, z. B. EFH Müller</string>
+    <string name="project_address_hint">Adresse</string>
+    <string name="project_unit_hint">Lüftungsgerät</string>
+    <string name="note_hint">Notiz</string>
+
+    <string name="no_rooms_title">Noch keine Räume</string>
+    <string name="no_rooms_text">Fügen Sie mit der Schaltfläche „Raum“ einen Raum aus der Zeichnung mit Auslegungsvolumenstrom und Anzahl der Ventile hinzu.</string>
+    <string name="flow_outlets_summary">m³/h · %1$d/%2$d Ventile</string>
+    <string name="balance">Bilanz Zuluft − Abluft</string>
+    <string name="add_outlet">Ventil</string>
+    <string name="room_options">Raumoptionen</string>
+    <string name="design_share">Soll %1$s m³/h</string>
+    <string name="room_flow_line">%1$s %2$s / %3$s m³/h</string>
+
+    <string name="new_room">Neuer Raum</string>
+    <string name="edit_room">Raum bearbeiten</string>
+    <string name="room_number_hint">Nummer, z. B. 1.01</string>
+    <string name="room_name_hint">Name, z. B. Wohnzimmer</string>
+    <string name="room_flow_hint">Volumenstrom [m³/h]</string>
+    <string name="room_count_hint">Ventile</string>
+    <string name="room_flow_help">Geben Sie den Auslegungsvolumenstrom des Raums und die Anzahl der Ventile ein. Jedes Ventil erhält einen gleichen Anteil als Sollwert; die Summe wird mit dem Raumvolumenstrom verglichen.</string>
+    <string name="room_count_min">Mindestens %1$d (gemessene Ventile können hier nicht entfernt werden)</string>
+    <string name="delete_room_title">Raum löschen?</string>
+    <string name="delete_room_text">„%1$s“ wird mit %2$d Ventilen und deren Messungen dauerhaft gelöscht.</string>
+
+    <string name="new_outlet">Neues Ventil</string>
+    <string name="edit_outlet">Ventil bearbeiten</string>
+    <string name="delete_outlet">Ventil löschen</string>
+    <string name="delete_outlet_title">Ventil löschen?</string>
+    <string name="delete_outlet_text">„%1$s“ wird mit %2$d Messungen dauerhaft gelöscht.</string>
+    <string name="outlet_label_hint">Bezeichnung, z. B. Z1</string>
+    <string name="outlet_note_hint">Notiz, z. B. Ventileinstellung</string>
+    <string name="gauge_caption_flow">Soll %1$s m³/h · %2$s m/s</string>
+    <string name="room_progress">Raum %1$s: %2$s / %3$s m³/h</string>
+    <string name="measure_average">Mittelwert über %1$d s messen</string>
+    <string name="hood_hint">Drücken Sie den Trichter ringsum dicht an das Ventil und halten Sie ihn während der ganzen Messung ruhig.</string>
+    <string name="note_label">Notiz</string>
+    <string name="history_label">Messverlauf</string>
+    <string name="delete_measurement">Messung löschen</string>
+    <string name="measuring_average">Messe Mittelwert</string>
+    <string name="measuring_remaining">noch %1$d s · %2$d Werte</string>
+    <string name="cancel_measurement">Messung abbrechen</string>
+    <string name="result">Ergebnis</string>
+    <string name="metric_flow">Volumenstrom</string>
+    <string name="metric_target">Soll</string>
+    <string name="metric_velocity">Geschwindigkeit</string>
+    <string name="no_data_during_capture">Während der Messung kamen keine Daten vom Anemometer.</string>
+    <string name="unstable_values">Schwankende Werte (±%1$s %%), Wiederholung empfohlen</string>
+
+    <string name="beaufort_caption">%1$d Bft · %2$s</string>
+    <string name="flow_through_hood">Volumenstrom Trichter</string>
+    <string name="temperature">Temperatur</string>
+    <string name="humidity">Feuchte</string>
+    <string name="wind_chill">Gefühlt kalt (Windchill)</string>
+    <string name="change_unit">Einheit wechseln</string>
+    <string name="speed_trend">Geschwindigkeitsverlauf</string>
+    <string name="flow_trend">Volumenstromverlauf</string>
+    <string name="reset">Zurücksetzen</string>
+    <string name="stat_min">Min</string>
+    <string name="stat_avg">Mittel</string>
+    <string name="stat_max">Max</string>
+    <string name="start_recording">Aufzeichnung starten</string>
+    <string name="stop_recording">Aufzeichnung beenden (%1$d Werte)</string>
+    <string name="save_recording">Aufzeichnung speichern</string>
+    <string name="recorded_values">%1$d Werte aufgezeichnet.</string>
+    <string name="record_name_hint">Name</string>
+
+    <string name="no_records_title">Keine Aufzeichnungen</string>
+    <string name="no_records_text">Starten Sie auf dem Bildschirm Messen eine fortlaufende Aufzeichnung. Gespeicherte Aufzeichnungen lassen sich als CSV für Excel teilen.</string>
+    <string name="record_default_title">Aufzeichnung</string>
+    <string name="record_summary">%1$d Werte · Mittel %2$s · max %3$s %4$s</string>
+    <string name="delete_record_title">Aufzeichnung löschen?</string>
+    <string name="delete_record_text">„%1$s“ wird dauerhaft gelöscht.</string>
+    <string name="share_csv">CSV teilen</string>
+
+    <string name="choose_meter">Anemometer wählen</string>
+    <string name="scan_again">Erneut suchen</string>
+    <string name="devices_hint">Schalten Sie das Anemometer ein und drücken Sie dessen Bluetooth-Taste.</string>
+    <string name="last_used">Zuletzt verwendet</string>
+    <string name="likely_meter">Wahrscheinlich Anemometer · %1$d dBm</string>
+    <string name="wt87b_meter">Wintact WT87B · %1$d dBm</string>
+    <string name="nothing_found">Nichts gefunden. Ist das Anemometer eingeschaltet und in Reichweite?</string>
+
+    <string name="settings_hood">Messtrichter</string>
+    <string name="settings_hood_help">Volumenstrom = mittlere Geschwindigkeit × freie Fläche des Messkopfs × Korrektur K. Die Maße sind für das Wintact WT87B voreingestellt (mit dem Messschieber gemessen); ändern Sie sie nur bei einem anderen Gerät.</string>
+    <string name="hood_head_diameter">Kopf Ø [mm]</string>
+    <string name="hood_hub_diameter">Nabe Ø [mm]</string>
+    <string name="hood_factor">Korrektur K</string>
+    <string name="hood_diagram_head">Kopf Ø</string>
+    <string name="hood_diagram_hub">Nabe Ø</string>
+    <string name="hood_diagram_caption">Kopf = Innendurchmesser des Rings, in dem sich das Flügelrad dreht. Nabe = die volle Mitte, an der die Flügel befestigt sind.</string>
+    <string name="hood_area">Freie Fläche %1$s cm² · 1 m/s = %2$s m³/h</string>
+    <string name="hood_invalid">Eingegebene Werte prüfen</string>
+    <string name="hood_reset_wt87b">WT87B-Werte</string>
+    <string name="hood_save">Trichter speichern</string>
+    <string name="hood_saved">Trichter gespeichert</string>
+    <string name="settings_evaluation">Bewertung</string>
+    <string name="settings_tolerance">Volumenstrom-Toleranz</string>
+    <string name="settings_capture">Mittelungsdauer</string>
+    <string name="settings_units">Einheiten</string>
+    <string name="settings_device">Gerät</string>
+    <string name="device_connected">Verbunden: %1$s</string>
+    <string name="device_connecting">Verbinde: %1$s</string>
+    <string name="device_disconnected">Nicht verbunden</string>
+    <string name="disconnect">Trennen</string>
+    <string name="settings_language">Sprache</string>
+    <string name="language_system">System</string>
+
+    <string name="csv_title">Protokoll Volumenstrommessung Lüftung</string>
+    <string name="csv_address">Adresse</string>
+    <string name="csv_unit">Gerät</string>
+    <string name="csv_tolerance">Toleranz</string>
+    <string name="csv_header" formatted="false">Raum;Ventil;Richtung;Soll [m³/h];Gemessen [m³/h];Abweichung [%];Status;Geschwindigkeit [m/s];Messzeit;Notiz</string>
+    <string name="csv_room_total">Summe Raum</string>
+    <string name="csv_total">Gesamt</string>
+    <string name="csv_record_header" formatted="false">Zeit;Geschwindigkeit [m/s];Temperatur [°C];Feuchte [%]</string>
+
+    <string name="chart_hint">Tippen oder wischen Sie über das Diagramm, um die Werte abzulesen.</string>
+    <string name="record_detail">Aufzeichnung</string>
+
+    <string-array name="beaufort">
+        <item>Windstille</item>
+        <item>Leiser Zug</item>
+        <item>Leichte Brise</item>
+        <item>Schwache Brise</item>
+        <item>Mäßige Brise</item>
+        <item>Frische Brise</item>
+        <item>Starker Wind</item>
+        <item>Steifer Wind</item>
+        <item>Stürmischer Wind</item>
+        <item>Sturm</item>
+        <item>Schwerer Sturm</item>
+        <item>Orkanartiger Sturm</item>
+        <item>Orkan</item>
+    </string-array>
+</resources>
