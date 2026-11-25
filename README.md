@@ -4,7 +4,7 @@ Android app for the **Wintact WT87B** Bluetooth anemometer, built for balancing 
 
 Aplikace pro Android k Bluetooth anemometru **Wintact WT87B**, určená k zaregulování větrání v rodinných domech a bytech (přívod a odvod vzduchu po místnostech).
 
-**[⬇ Stáhnout / Download APK](../../releases/latest)**
+**[⬇ Stáhnout / Download APK](https://github.com/radovanskvor/anemometr/releases/latest)**
 
 <p>
   <img src="docs/screenshots/project.png" width="250" alt="Project with rooms and outlets">
@@ -29,7 +29,7 @@ Aplikace pro Android k Bluetooth anemometru **Wintact WT87B**, určená k zaregu
 ### Instalace (krok za krokem)
 Aplikace není v Google Play, instaluje se ze souboru APK.
 
-1. V telefonu otevřete stránku **[Releases](../../releases/latest)** a klepněte na soubor `Anemometr-…apk`.
+1. V telefonu otevřete stránku **[Releases](https://github.com/radovanskvor/anemometr/releases/latest)** a klepněte na soubor `Anemometr-…apk`.
 2. Prohlížeč se může zeptat, jestli soubor opravdu stáhnout. Potvrďte **Stáhnout**.
 3. Po stažení klepněte na **Otevřít**. Telefon napoprvé zobrazí, že instalace z tohoto zdroje není povolená. Klepněte na **Nastavení** a zapněte **Povolit z tohoto zdroje**, pak se vraťte zpět.
 4. Klepněte na **Instalovat**. Pokud se objeví varování Google Play Protect („neznámý vývojář“), zvolte **Další podrobnosti → Přesto nainstalovat**.
@@ -59,7 +59,7 @@ Aplikace není v Google Play, instaluje se ze souboru APK.
 ### Installation (step by step)
 The app is not on Google Play; you install it from an APK file.
 
-1. On your phone, open the **[Releases](../../releases/latest)** page and tap the `Anemometr-…apk` file.
+1. On your phone, open the **[Releases](https://github.com/radovanskvor/anemometr/releases/latest)** page and tap the `Anemometr-…apk` file.
 2. Your browser may ask whether to keep the file. Tap **Download**.
 3. When it has downloaded, tap **Open**. The first time, Android says installing from this source is not allowed. Tap **Settings**, turn on **Allow from this source**, then go back.
 4. Tap **Install**. If Google Play Protect warns about an unknown developer, choose **More details → Install anyway**.
