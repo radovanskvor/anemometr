@@ -132,7 +132,7 @@
     <string name="nothing_found">Nichts gefunden. Ist das Anemometer eingeschaltet und in Reichweite?</string>
 
     <string name="settings_hood">Volumenstromberechnung</string>
-    <string name="settings_hood_help">Volumenstrom = mittlere Geschwindigkeit × freie Fläche des Messkopfs × Korrektur K. Der Trichter leitet nur den gesamten Volumenstrom des Ventils durch den Kopf des Anemometers, seine Maße werden daher nicht eingegeben. Die Korrektur K gleicht Undichtigkeiten des Trichters und ungleichmäßige Strömung im Kopf aus. Die Maße sind für das Wintact WT87B voreingestellt (mit dem Messschieber gemessen); ändern Sie sie nur bei einem anderen Gerät.</string>
+    <string name="settings_hood_help">Volumenstrom = mittlere Geschwindigkeit × freie Fläche des Kopfs × Korrektur K.\nDie freie Fläche ist der Ring zwischen dem Innendurchmesser des Kopfs und der Nabe.\n\nFür die Messung ist ein Messtrichter erforderlich, der die gesamte Luft aus dem Ventil durch den Kopf des Anemometers leitet.\n\nMit der Korrektur K können Sie das Ergebnis anhand einer Kontrollmessung feinabstimmen. 1,00 bedeutet keine Korrektur.\n\nDie Kopfmaße sind für das Wintact WT87B voreingestellt (mit dem Messschieber gemessen).</string>
     <string name="hood_head_diameter">Kopf Ø [mm]</string>
     <string name="hood_hub_diameter">Nabe Ø [mm]</string>
     <string name="hood_factor">Korrektur K</string>

@@ -146,7 +146,7 @@
 
     <!-- Settings -->
     <string name="settings_hood">Air flow calculation</string>
-    <string name="settings_hood_help">Air flow = average velocity × free area of the measuring head × correction K. The hood only routes the whole outlet flow through the anemometer head, so its dimensions are not entered. Correction K compensates for hood leakage and uneven flow across the head. The dimensions are preset for the Wintact WT87B (measured with a caliper); change them only for a different meter.</string>
+    <string name="settings_hood_help">Air flow = average velocity × free area of the head × correction K.\nThe free area is the ring between the inner diameter of the head and the hub.\n\nA measuring hood must be used for the measurement; it routes all the air from the outlet through the anemometer head.\n\nCorrection K lets you fine-tune the result against a reference measurement. 1.00 means no correction.\n\nThe head dimensions are preset for the Wintact WT87B (measured with a caliper).</string>
     <string name="hood_head_diameter">Head Ø [mm]</string>
     <string name="hood_hub_diameter">Hub Ø [mm]</string>
     <string name="hood_factor">Correction K</string>

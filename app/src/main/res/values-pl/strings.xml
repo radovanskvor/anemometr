@@ -132,7 +132,7 @@
     <string name="nothing_found">Nic nie znaleziono. Czy anemometr jest włączony i w zasięgu?</string>
 
     <string name="settings_hood">Obliczanie strumienia</string>
-    <string name="settings_hood_help">Strumień = średnia prędkość × wolna powierzchnia głowicy pomiarowej × korekta K. Lej jedynie kieruje cały strumień z nawiewnika przez głowicę anemometru, dlatego jego wymiarów się nie wpisuje. Korekta K wyrównuje nieszczelność leja i nierównomierny przepływ w głowicy. Wymiary są ustawione dla Wintact WT87B (zmierzone suwmiarką); zmieniaj je tylko dla innego przyrządu.</string>
+    <string name="settings_hood_help">Strumień = średnia prędkość × wolna powierzchnia głowicy × korekta K.\nWolna powierzchnia to pierścień między wewnętrzną średnicą głowicy a piastą.\n\nDo pomiaru konieczne jest użycie leja pomiarowego, który doprowadza całe powietrze z nawiewnika przez głowicę anemometru.\n\nKorektą K możesz dostroić wynik na podstawie pomiaru kontrolnego. 1,00 oznacza brak korekty.\n\nWymiary głowicy są ustawione dla Wintact WT87B (zmierzone suwmiarką).</string>
     <string name="hood_head_diameter">Głowica Ø [mm]</string>
     <string name="hood_hub_diameter">Piasta Ø [mm]</string>
     <string name="hood_factor">Korekta K</string>
